@@ -1,0 +1,67 @@
+@media(max-width:1024px){
+    /*services*/
+    section.services  .card .card-block h4{
+        font-size: 20px;
+        color: #070c0c;
+        margin-bottom: 25px;
+    }  
+    /*gallery (modal)*/
+    section.gallery .gallery-overlay .overlay-text i.fa-times{
+        color: #16aeca;
+        position: absolute;
+        top: 2%;
+        left: 4%;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    section.gallery .gallery-overlay .overlay-text p{
+        font-size: 20px;
+        line-height: 33px;
+        margin-bottom: 50px;
+        color: #919191;
+    }
+    section.gallery .gallery-overlay .overlay-text h4{
+        font-size: 30px;
+        line-height: 42px;
+        color: #16aeca;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:912px){
+    /*services*/
+    section.services  .card{
+        height: 300px;
+        padding: 20px;
+        margin-bottom: 20px;
+        transition: all .7s ease-in-out;
+    }
+    section.services  .card:hover{
+        height: 400px;
+    }
+    section.services  .card .card-block h4{
+        font-size: 20px;
+        color: #070c0c;
+        margin-bottom: 25px;
+    } 
+    section.services  .card .card-block p{
+        font-size: 13px;
+        line-height: 14px;
+        color: #919191;
+        opacity: 0;
+        transition: all ease 1.2s;
+    }
+    section.services  .card .card-img{
+        margin-bottom: 35px;
+        max-width: 100%;
+    }
+}
+@media(max-width:425px){
+    /*header*/
+    header .overlay .carousel .carousel-item .carousel-content h2{
+        font-size: 25px;
+        line-height: 42px;
+        margin-bottom: 60px;
+        color: #fff;
+    }
+}
